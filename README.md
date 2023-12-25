@@ -1,7 +1,24 @@
-# 6monthwalk
+# 6monthwalk - lose weight in 6month :)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Website structure
 
+1. Homepage - what this project is all about, our partners or providers 
+2. Account page
+3. List of technicks (with ability to select if for you, you can select one for a certain time period, the history of selection will be shown in your profile as well as ration of that period)
+4. New blog posts (each post can be liked, disliked, added to favorites, commented)
+
+## Features
+
+1. Search 
+    1) By product callories
+    2) By technicks of losing weight
+    3) By Personal blogs
+        - you can do bloging on any platform you want 
+        - you need to integrate it with our platform if you dont want to share experience only on this platform
+    4) Search takes into consideration like/dislike ration
+
+
+# Technical information
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
