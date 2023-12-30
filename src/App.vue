@@ -1,32 +1,37 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <div class="cautious-hero">
-        <p>Cautions Hero Midset!</p>
-        <img src="@/assets/CautiousHero.webp" alt="Cautious Hero" />
-      </div>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/dashboard">Dashboard</RouterLink>
-      </nav>
-    </div>
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/dashboard">Dashboard</RouterLink>
+    </nav>
   </header>
-
-  <RouterView />
+  <main>
+    <div class="cautious-hero">
+      <p>Cautions Hero Midset!</p>
+      <img src="@/assets/CautiousHero.webp" alt="Cautious Hero" />
+    </div>
+    <RouterView />
+  </main>
+  <footer></footer>
 </template>
 
 <style scoped>
 header {
+  position: sticky;
+  top: 0;
   height: 10vh;
+  padding: 10px;
+  background-color: rgba(45, 137, 11, 0.2);
+  backdrop-filter: blur(10px);
+}
+nav {
+  a.router-link-active {
+    font-size: 20px;
+  }
 }
 </style>
