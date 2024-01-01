@@ -34,4 +34,11 @@ nav {
     font-size: 20px;
   }
 }
+.cautious-hero {
+  img {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+  }
+}
 </style>
