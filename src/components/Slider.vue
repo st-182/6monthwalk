@@ -2,4 +2,11 @@
   <div class="slider"></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.slider{
+  background: gray;
+  width: 100px;
+  height: 100px;
+}
+
+</style>
