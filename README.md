@@ -16,6 +16,11 @@
         - you can do bloging on any platform you want 
         - you need to integrate it with our platform if you dont want to share experience only on this platform
     4) Search takes into consideration like/dislike ration
+2. Day Ration
+   1) Schedule - every 1-3 hours you recive notification untill it becomes a rutine.
+      a) Access to set alarms, CRUD operations.
+      b) Set possibility to chose from alarm/notification/any other form of reminder.
+   2) Easy access to what you eat and how much kcal it has it it.  
 
 
 # Technical information
